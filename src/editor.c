@@ -522,6 +522,7 @@ INT_PTR CALLBACK EditorPagesProc (
 					IPPROTO_ICMPV6,
 					IPPROTO_L2TP,
 					IPPROTO_SCTP,
+					IPPROTO_ESP,
 				};
 
 				_r_ctrl_setstringformat (hwnd, IDC_RULE_PROTOCOL, L"%s:", _r_locale_getstring (IDS_PROTOCOL));
